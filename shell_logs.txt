@@ -1,0 +1,500 @@
+   31  ./runner -r ./traces/week1/short1.rep
+   32  ./runner -r ./traces/week2/evil/add_rand.rep
+   33  python3 driver.py
+   34  make
+   35  make
+   36  python3 driver.py
+   37  make
+   38  ./runner -r ./traces/week2/evil/add_rand.rep
+   39  python3 driver.py -w1
+   40  python3 driver.py -w1
+   41  make
+   42  make
+   43  make
+   44  make
+   45  make
+   46  make
+   47  python3 driver.py -w1
+   48  make
+   49  python3 driver.py -w1
+   50  make
+   51  python3 driver.py -w1
+   52  python3 driver.py -w2
+   53  make
+   54  make
+   55  python3 driver.py -w2
+   56  python3 driver.py -w1
+   57  make
+   58  python3 driver.py -w1
+   59  python3 driver.py -w2
+   60  make
+   61  python3 driver.py -w1
+   62  python3 driver.py -w2
+   63  make
+   64  make
+   65  make
+   66  python3 driver.py -w1
+   67  make
+   68  python3 driver.py -w1
+   69  make
+   70  make
+   71  make
+   72  python3 driver.py -w1
+   73  make
+   74  python3 driver.py -w1
+   75  make
+   76  python3 driver.py -w1
+   77  make
+   78  python3 driver.py -w1
+   79  make
+   80  python3 driver.py -w1
+   81  make
+   82  python3 driver.py -w1
+   83  python3 driver.py -w3
+   84  make
+   85  python3 driver.py -w1
+   86  python3 driver.py -w2
+   87  git add .
+   88  git commit -m "week2check"
+   89  git push
+   90  make
+   91  python3 driver.py -w1
+   92  python3 driver.py -w2
+   93  make
+   94  python3 driver.py -w2
+   95  make
+   96  python3 driver.py -w2
+   97  make
+   98  make
+   99  python3 driver.py -w2
+  100  make
+  101  python3 driver.py -w2
+  102  make
+  103  python3 driver.py -w2
+  104  make
+  105  python3 driver.py -w2
+  106  make
+  107  python3 driver.py -w2
+  108  make
+  109  python3 driver.py -w2
+  110  cd /path/to/your/mm-lab
+  111  ls
+  112  mm-lab-AdilFaheem7\
+  113  mm-lab-AdilFaheem7
+  114  cd mm-lab-AdilFaheem7
+  115  ls
+  116  python3 driver.py -w1
+  117  python3 driver.py -w1
+  118  python3 driver.py -w2
+  119  git add .
+  120  git commit -m "testing"
+  121  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all
+  122  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py -w 1
+  123  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  124  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all
+  125  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./runner -ru traces/week2/basic/binary-bal.rep
+  126  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./runner -ru traces/week2/basic/binary2-bal.rep
+  127  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 60 python3 driver.py -w 1
+  128  cd /u/afaheem7/mm-lab-AdilFaheem7 && for trace in traces/week2/basic/binary*.rep traces/week2/complex/collatz.rep traces/week2/complex/sqrt.rep; do echo "=== $trace ==="; ./runner -ru "$trace" | tail -1; done
+  129  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all && ./runner -ru traces/week2/basic/binary2-bal.rep
+  130  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all && ./runner -ru traces/week2/basic/binary2-bal.rep
+  131  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  132  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all
+  133  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./runner -ru traces/week2/basic/binary2-bal.rep
+  134  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py -w 1
+  135  python3 driver.py -w1
+  136  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  137  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all
+  138  cd /u/afaheem7/mm-lab-AdilFaheem7 && for trace in traces/week2/basic/binary*.rep; do echo "=== $trace ==="; ./runner -ru "$trace" | tail -1; done
+  139  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py -w 1
+  140  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  141  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  142  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  143  git add .
+  144  git commit -m "ec"
+  145  git push
+  146  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all
+  147  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py -w 1
+  148  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  149  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make all && python3 driver.py -w 1
+  150  cd /u/afaheem7/mm-lab-AdilFaheem7 && timeout 300 python3 driver.py
+  151  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make
+  152  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py
+  153  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  154  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  155  git add .
+  156  git commit -m "more throuhgput"
+  157  git push
+  158  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make
+  159  cd /u/afaheem7/mm-lab-AdilFaheem7 && python3 driver.py
+  160  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make && python3 driver.py
+  161  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make && python3 driver.py
+  162  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  163  git add .
+  164  git commit -m "minor changes"
+  165  git push 
+  166  cd /u/afaheem7/mm-lab-AdilFaheem7 && make clean && make && python3 driver.py
+  167  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  168  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  169  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  170  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  171  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  172  git add . 
+  173  git commit -m "hmm"
+  174  git push
+  175  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  176  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  177  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && ./bump_test
+  178  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  179  git add .
+  180  git commit -m "smh"
+  181  git push
+  182  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  183  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  184  git add .
+  185  git commit -m "hmmmm"
+  186  git push
+  187  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  188  git add .
+  189  git commit -m "weeeeee"
+  190  git push
+  191  chkquota
+  192  users
+  193  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  194  cd /u/afaheem7/mm-lab-AdilFaheem7 && make heap_runner
+  195  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  196  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  197  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  198  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  199  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  200  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  201  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  202  users
+  203  chkquota
+  204  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  205  cd /u/afaheem7/mm-lab-AdilFaheem7 && make heap_runner && ./heap_runner
+  206  cd /u/afaheem7/mm-lab-AdilFaheem7 && make heap_runner && ./heap_runner
+  207  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  208  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  209  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  210  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  211  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  212  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  213  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  214  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  215  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  216  git add .
+  217  git commit -m "week 1 done"
+  218  git push
+  219  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  220  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  221  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  222  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  223  git add .
+  224  git commit -m "fdfsd"
+  225  git push
+  226  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  227  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  228  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  229  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  230  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  231  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  232  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  233  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  234  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  235  git add .
+  236  git commit -m "dfidfs"
+  237  git push
+  238  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  239  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  240  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  241  git add .
+  242  git commit -m "idkk"
+  243  git push
+  244  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  245  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  246  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  247  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  248  git add .
+  249  git commit -m "trying to get above 93"
+  250  git push
+  251  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  252  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  253  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  254  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  255  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  256  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  257  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  258  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  259  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  260  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  261  git add .
+  262  git commit -m "df"
+  263  git push
+  264  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  265  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w2
+  266  git add .
+  267  git commit -m "done mm lab"
+  268  git push
+  269  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py
+  270  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./heap_runner
+  271  cd /u/afaheem7/mm-lab-AdilFaheem7 && ./bump_test
+  272  cd /u/afaheem7/mm-lab-AdilFaheem7 && make && python3 driver.py -w1
+  273  pwd
+  274  touch ~/.gdbinit
+  275  ls
+  276   ls -a
+  277  echo "set history save on"
+  278  echo "set history save on" > ~/.gdbinit
+  279  cat' ~/.gdbinit
+  280  b
+  281  -b
+  282  f
+  283  back
+  284  hi
+  285  cat' ~/.gdbinit
+  286  b
+  287  -b
+  288  f
+  289  back
+  290  hi]
+  291  cat ~/.gdbinit
+  292  cat ~/.gdbinit3
+  293  cat ~/.gdbinit
+  294  logout
+  295  ls -la mini_ci*
+  296  chmod +x mini_ci_reference
+  297  ls -la mini_ci*
+  298  ./mini_ci_reference testcases/basic_add.s
+  299  make
+  300  ./mini_ci_reference testcases/basic_add.s
+  301  ./mini_ci testcases/basic_add.s
+  302  make
+  303  ./mini_ci testcases/basic_add.s
+  304  q
+  305  make clean
+  306  ./mini_ci testcases/basic_add.s
+  307  ls -la
+  308  make
+  309  ls -la mini_ci*
+  310  ./mini_ci testcases/basic_add.s
+  311  ./mini_ci testcases/basic_add.s
+  312  ./mini_ci testcases/basic_add.s
+  313  echo "Your mini_ci:" && ./mini_ci testcases/basic_add.s && echo -e "\nReference mini_ci:" && ./mini_ci_reference testcases/basic_add.s
+  314  gdb --batch --ex run --ex bt --ex quit --args ./mini_ci testcases/basic_add.s
+  315  make
+  316  ./mini_ci testcases/basic_add.s
+  317  make && ./mini_ci testcases/basic_add.s
+  318  make
+  319  make && ./mini_ci testcases/basic_add.s
+  320  make check
+  321  make
+  322  make check
+  323  make check
+  324  make
+  325  gdb
+  326  ./mini_ci testcases/basic_add.s
+  327  make check
+  328  make clean
+  329  make debug
+  330  gdb mini_ci
+  331  make
+  332  ./mini_ci testcases/basic_add.s
+  333  ./mini_ci_referece testcases/basic_add.s
+  334  ./mini_ci_reference testcases/basic_add.s
+  335  git clone git@github.com:AdilFaheem7/CPROFICIENY.git
+  336  ls -la /u/afaheem7/CPROFICIENY/ref.out
+  337  chmod +x /u/afaheem7/CPROFICIENY/ref.out
+  338  ls -la /u/afaheem7/CPROFICIENY/ref.out
+  339  gdp ref.out
+  340  q
+  341  gdp
+  342  gdb ref.out
+  343  cd /u/afaheem7/CPROFICIENY && make debug
+  344  make debug
+  345  make clean && make debug
+  346  make
+  347  make check
+  348  gdb 
+  349  make debugh
+  350  make debug
+  351  gdb ref.out
+  352  gdb bin/a.out
+  353  make
+  354  make clean
+  355  make check
+  356  ./bin/a.out -t testcases/short1.rep
+  357  ./ref.out -t testcases/short1.rep
+  358  make comp
+  359  gdb bin/a.out
+  360  gdb short1.rep
+  361  gdb bin/a.outq
+  362  gdb bin/a.out
+  363  make clean
+  364  gdb bin/a.out
+  365  gdb bin/a.out
+  366  ls -la bin/
+  367  make clean && make debug
+  368  ls -la bin/a.out
+  369  gdb bin/a.out
+  370  make clean
+  371  make debug
+  372  gdb bin/a.out
+  373  make clean
+  374  make debug
+  375  gdb bin/a.out
+  376  make check
+  377  make debug
+  378  gdb bin/a.out
+  379  make clean
+  380  make debug
+  381  gdb bin/a.out
+  382  make clean
+  383  make debug
+  384  gdb bin/a.out
+  385  make check
+  386  /ref.out -t testcases/short5.rep
+  387  ./ref.out -t testcases/short5.rep
+  388  ./ref.out -t testcases/short2.rep
+  389  ./ref.out -t testcases/short3.rep
+  390  make clean
+  391  make check
+  392  for testfile in testcases/*; do echo "=== Running $testfile ==="; ./ref.out -t "$testfile"; echo; done
+  393  /ref.out -t testcases/short1.rep
+  394  ./ref.out -t testcases/short1.rep
+  395  ./ref.out -t testcases/short2.rep
+  396  make check
+  397  make clean
+  398  ./ref.out -t testcases/short2.rep
+  399  make check
+  400  ./ref.out -t testcases/short2.rep
+  401  ./ref.out -t testcases/short4.rep
+  402  ./ref.out -t testcases/short5.rep
+  403  make clean
+  404  make debug
+  405  make check
+  406  chkquota
+  407  du -sh ~/* 2>/dev/null | sort -h
+  408  du -sh ~/.??* 2>/dev/null | sort -h
+  409  chkqupta
+  410  chkquota
+  411  rm -rf ~/.cache/*
+  412  chkquota
+  413  du -sh ~/* 2>/dev/null | sort -h
+  414  users
+  415  logout
+  416  make
+  417  make check
+  418  make debug
+  419  make
+  420  make debug
+  421  ./a.out testcases/short1.rep
+  422  make clean
+  423  make
+  424  users
+  425  make
+  426  make check
+  427  make
+  428  ./a.out testcases/short1.rep
+  429  pwd
+  430  ls -la
+  431  ls -la bin
+  432  file bin/a.out
+  433  ./bin/a.out -t testcases/short1.rep
+  434  ./bin/a.out -t testcases/short2.rep
+  435  make
+  436  make -s
+  437  ./bin/a.out -t testcases/short1.rep
+  438  ./bin/a.out -t testcases/short2.rep
+  439  ./ref.out -t testcases/short2.rep
+  440  ./ref.out -t testcases/short2.rep
+  441  ./bin/ref.out -t testcases/short1.rep
+  442  .ref.out -t testcases/short1.rep
+  443  ./ref.out -t testcases/short1.rep
+  444  ./ref.out  testcases/short1.rep
+  445  ./ref.out testcases/short1.rep
+  446  ls -l ref.out
+  447  file ref.out
+  448  ls -l ref.out
+  449  chmod +x ref.out
+  450  ls -l ref.out
+  451  ./ref.out -t testcases/short1.rep
+  452  ./ref.out -t testcases/short2.rep
+  453  ./ref.out -t testcases/short1.rep
+  454  ./bin/a.out -t testcases/short2.rep
+  455  make check
+  456  ./ref.out -t testcases/short3.rep
+  457  ./ref.out -t testcases/short4.rep
+  458  ./ref.out -t testcases/short5.rep
+  459  make comp
+  460  make
+  461  make
+  462  make
+  463  make comp
+  464  make
+  465  make comp
+  466  ./a.out testcases/short1.rep
+  467  ./bin/a.out testcases/short1.rep
+  468  ./bin/a.out -t  testcases/short1.rep
+  469  make debug
+  470  make clean
+  471  clear
+  472  make debug
+  473  gdb ./bin/a.out
+  474  gdb a.out
+  475  gdb bin/a.out
+  476  gdb -q --args ./bin/a.out -t testcases/short3.rep -ex "break grind" -ex "run" -ex "bt" -ex "frame 0" -ex "list" -ex "info locals" -ex "next" -ex "next" -ex "list" -ex "next" -ex "next" -ex "info locals" -ex "print itr" -ex "print prev" -ex "print parser->index" -ex "quit"
+  477  ./a.out testcases/short3.rep
+  478  ./a.out -t  testcases/short3.rep
+  479  ./bin/a.out -t  testcases/short3.rep
+  480  nl -ba grind.c | sed -n '1,220p'
+  481  gdb -q --batch -ex "set pagination off" -ex "break grind.c:34" -ex "break grind.c:41" -ex "run -t testcases/short3.rep" -ex "bt" -ex "frame 0" -ex "info locals" -ex "print itr" -ex "print prev" -ex "print parser->index" -ex "continue" -ex "bt" -ex "frame 0" -ex "info locals" -ex "print itr" -ex "print prev" -ex "print parser->index" -ex "quit" > gdb_loop_debug.txt 2>&1
+  482  sed -n '1,240p' gdb_loop_debug.txt
+  483  history
+  484  gdb
+  485  make clean
+  486  make debug
+  487  db --args ./bin/a.out -t testcases/short3.rep
+  488  gdb --args ./bin/a.out -t testcases/short3.rep
+  489  make clean
+  490  make debug
+  491  gdb bin/a.out -t testcases/short3.rep
+  492  gdb bin/a.out
+  493  make clean
+  494  make debug
+  495  gdb ./bin/a.out
+  496  make clean
+  497  make debug
+  498  gdb ./bin/a.out
+  499  make
+  500  make check
+  501  make clean
+  502  make
+  503  ./bin/a.out testcases/short1.rep
+  504  ./bin/a.out -t  testcases/short1.rep
+  505  ./bin/a.out -t  testcases/short2.rep
+  506  ref.out  -t  testcases/short2.rep
+  507  chmod +x ref.out
+  508  ./ref.out  -t  testcases/short2.rep
+  509  make clean
+  510  make debug
+  511  gdb bin/a.out
+  512  make
+  513  make
+  514  make check
+  515  make debug
+  516  gdb bin/a.out
+  517  make
+  518  make check
+  519  make comp
+  520  make debug
+  521  gdb bin/a.out
+  522  y
+  523  ./ref.out  -t  testcases/short3.rep
+  524  ./bin/a.out -t  testcases/short3.rep
+  525  ./bin/a.out -t  testcases/short4.rep
+  526  ./ref.out  -t  testcases/short4.rep
+  527  ./ref.out  -t  testcases/short5.rep
+  528  ./bin/a.out -t  testcases/short5.rep
+  529  make comp
+  530  history > shell_logs.txt
